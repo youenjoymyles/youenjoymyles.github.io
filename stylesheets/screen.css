@@ -72,3 +72,39 @@ body {
   background-color: #000;
   color: #fff;
 }
+
+/* line 15, ../sass/screen.scss */
+.wrapper {
+  margin: 0 10%;
+}
+
+/* line 21, ../sass/screen.scss */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* line 26, ../sass/screen.scss */
+.work {
+  display: flex;
+  margin: 1%;
+  background: #333;
+  height: 300px;
+  width: 31%;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+@media (max-width: 1000px) {
+  /* line 49, ../sass/screen.scss */
+  .container {
+    flex-direction: column;
+  }
+
+  /* line 52, ../sass/screen.scss */
+  .work {
+    display: flex;
+    width: 98%;
+  }
+}
