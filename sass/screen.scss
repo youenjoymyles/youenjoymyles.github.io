@@ -28,13 +28,27 @@ body {
   margin: 1%;
   background: #333;
   height: 300px;
-  width: 31%;
+  width: 29%;
   // background-size: cover;
   // background: url("http://www.milesquirk.com/img/ng.jpg");
-  justify-content: center;
-  align-items: center;  
+  justify-content: space-between;
+  align-items: left;  
   // background: url(ttp://www.milesquirk.com/img/ng.jpg); 
-  background-size: cover;
+  // background-size: cover;
+  flex-direction: column;
+  //flex-wrap: no wrap;
+  align-items: flex-start;
+  padding: 1%;
+  
+  h3 {
+    color: #b4d455;
+    padding: .5em;
+    background-color: #000;
+  }
+  
+  p {
+    background: #e7e7e7;
+  }
 }
 
 // .ng {

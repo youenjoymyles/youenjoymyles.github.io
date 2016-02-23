@@ -90,19 +90,31 @@ body {
   margin: 1%;
   background: #333;
   height: 300px;
-  width: 31%;
-  justify-content: center;
-  align-items: center;
-  background-size: cover;
+  width: 29%;
+  justify-content: space-between;
+  align-items: left;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1%;
+}
+/* line 43, ../sass/screen.scss */
+.work h3 {
+  color: #b4d455;
+  padding: .5em;
+  background-color: #000;
+}
+/* line 49, ../sass/screen.scss */
+.work p {
+  background: #e7e7e7;
 }
 
 @media (max-width: 1000px) {
-  /* line 49, ../sass/screen.scss */
+  /* line 63, ../sass/screen.scss */
   .container {
     flex-direction: column;
   }
 
-  /* line 52, ../sass/screen.scss */
+  /* line 66, ../sass/screen.scss */
   .work {
     display: flex;
     width: 98%;
